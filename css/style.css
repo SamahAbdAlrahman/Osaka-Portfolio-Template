@@ -10,6 +10,7 @@ body{
 font-family: var(--font);
 background-image: url(../assets/light_dot.jpg);
 height: 2000px;
+background-attachment: fixed;
 }
 .container{
     width: 80%;
@@ -70,6 +71,7 @@ background-color:black;
     background-image: url(../assets/bg.jpg);
     background-size: cover;
     position: relative;
+   
 
 }
 .header-title{
@@ -275,7 +277,7 @@ background-color:black;
     z-index: 22;
 color: #000;
     text-transform:uppercase;
-    font-size: 2.9rem;
+    font-size: 2.31rem;
     letter-spacing: 3px;
     font-weight: 800;
     position: absolute;
@@ -368,3 +370,110 @@ margin: auto;
 }
 }
 /* end about section *********************************** */
+
+/* start Services section *********************************** */
+
+.services{
+    padding: 4rem 0rem;
+background-image: url(../assets/dark_dot.jpg);
+background-attachment: fixed;
+
+}
+
+.services .sub-title{ 
+    color:white;
+}
+.services .main-title{ 
+    color:#343a40;
+}
+.services  p:nth-child(3){
+    color: #aaa;
+    text-align: center;
+}
+.item{
+    padding: 1rem 0rem;
+    background-color: white;
+    position: relative;
+    text-align: center;
+
+}
+.item .container{
+    width: 90%;
+margin: auto;
+}
+.box-item{
+    width: 30%;
+    margin: 1.5rem 0rem;
+}
+.item i{
+    font-size:1.5rem ;
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    border: solid 2px white;
+    color: white;
+    border-radius: 50%;
+    line-height: 60px;
+    text-align: center;
+    position: absolute;
+    left:  calc(50% - 30px);
+    top: -30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: color 0.4s ease-out;
+    -webkit-transition: color 0.4s ease-out;
+    -moz-transition: color 0.4s ease-out;
+    -ms-transition: color 0.4s ease-out;
+    -o-transition: color 0.4s ease-out;
+}
+.item h5 {
+    text-align: center;
+    padding-top: 2rem;
+    color: #000;
+    font-weight: 600;
+    position: relative;
+}
+.item h5::after{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 1.2px;
+    background-color:var(--secondTextColor);
+    bottom: -1rem;
+    left: calc(50% - 20px);
+    transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+}
+.item .container p{
+    color: var(--mainTitleColor);
+    padding-top: 1.5rem;
+    
+    text-align: center;
+}
+.box-item:hover i{
+    color: var(--secondTextColor);
+}
+.box-item:hover h5::after {
+    width: 56px;
+    left: calc(50% - 28px);
+
+}
+
+/* Media Query for Services Section*/
+@media (min-width: 576px) and (max-width: 768px)  {
+    .box-item{
+        width: 100%;
+    }
+}
+@media (max-width: 576px) {
+    .box-item{
+        width: 100%;
+    }
+
+}
+/* end Services section *********************************** */
