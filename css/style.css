@@ -380,13 +380,13 @@ background-attachment: fixed;
 
 }
 
-.services .sub-title{ 
+.services .sub-title , .contact .sub-title { 
     color:white;
 }
-.services .main-title{ 
+.services .main-title , .contact .main-title{ 
     color:#343a40;
 }
-.services  p:nth-child(3){
+.services  p:nth-child(3) , .contact p:nth-child(3) {
     color: #aaa;
     text-align: center;
 }
@@ -477,3 +477,168 @@ margin: auto;
 
 }
 /* end Services section *********************************** */
+
+/* start Portfolio section *********************************** */
+.Portfolio{
+    padding: 4rem 0rem;
+ 
+}
+.Portfolio .container{
+width: 100%;
+margin: auto;
+/* background-color: #212529; */
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    color: var(--secondTextColor);
+    border: 0;
+    background-color: transparent;
+}
+.nav-tabs .nav-link{
+    margin-bottom: 2rem;
+color: #000;
+border: 0;
+background-color: transparent;
+font-weight: 600;
+
+}
+/* end Portfolio section *********************************** */
+
+/* start testimonials section *********************************** */
+.Testimonials{
+
+    background-color: white;
+    padding: 4rem 0rem;
+
+}
+.Testimonials img{
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+        width: 85px;
+        margin: -3rem auto 1.5rem;
+        position: absolute;
+left: calc(50% - 42.5px);   
+}
+
+
+.testimonials-content{
+    /* padding: 0px 30px; */
+    text-align: center;
+/* background-color: white; */
+    border: solid 1.8px rgba(211, 211, 211, 0.918);
+    position: relative;
+    overflow: visible;
+
+}
+.testimonials-text{
+    padding-top: 4rem;
+    width: 88%;
+    margin: auto;
+}
+.testimonials-text h2{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.testimonials-text h3{
+    font-size: 0.8rem;
+
+    color: rgb(67, 64, 64);
+}
+.line{
+    margin: .75rem auto;
+    background-color: var(--secondTextColor);
+    width:35px;
+    height: 0.8px;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: #343a40;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.carousel-inner {
+    overflow: visible !important;
+}
+
+/* end testimonials section *********************************** */
+
+/* start contact section *********************************** */
+.contact{
+    background-color: #000;
+    padding: 4rem 0rem;
+
+}
+
+.contact h3{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--secondTextColor);
+}
+.contact p{
+    color: white;
+    font-size: 0.98rem;
+
+}
+
+form .form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #888;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    color: #fff;
+    transition: all .35s ease-in-out;
+    /* display: block; */
+    width: 100%;
+    /* height: calc(2.25rem + 2px); */
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border: none;
+  outline: none;
+  border-bottom: 1px solid red;
+
+}
+.submitBtn {
+    background-color: white;
+    color: #000;
+    width: 35%;
+    margin-top: 16px;
+    padding: 8px 0px;
+    border: none;
+    /*border-radius: 4px;
+    */font-size: 16px;
+    cursor: pointer;
+    transition:  background-color 0.4s ease-out ;
+    -webkit-transition:  background-color 0.4s ease-out ;
+    -moz-transition:  background-color 0.4s ease-out ;
+    -ms-transition:  background-color 0.4s ease-out ;
+    -o-transition:  background-color 0.4s ease-out ;
+}
+
+  .submitBtn:hover {
+    background-color: var(--secondTextColor);
+  }
+ 
+
+/* end contact section *********************************** */
+
+/* footr */
+.copyright p {
+    font-size: .75rem;
+    padding: 1.5rem 0;
+
+}

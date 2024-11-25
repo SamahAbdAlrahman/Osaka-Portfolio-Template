@@ -39,9 +39,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#about">ABOUT</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#skills">SKILLS</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="#service">SERVICE</a>
             </li>
@@ -49,14 +49,14 @@
               <a class="nav-link" href="#portfolio">PORTFOLIO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#price">PRICE</a>
+              <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#client">CLIENT</a>
-            </li>
-            <li class="nav-item">
+            </li> -->
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#blog">BLOG</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="#contact">CONTACT</a>
             </li>
@@ -67,7 +67,7 @@
     </nav>
 
 
-    <header class="header vh-100">
+    <header class="header vh-100" id="home">
       <div class="container">
         <div class="header_info text-white  vh-100  d-flex align-items-center ">
 
@@ -170,17 +170,8 @@
     </section>
     
 
-
-
-
-
-
-
-
-
-
     <!-- Services section  -->
-    <section class="services">
+    <section class="services"  id="service">
       <div class="container">
         <div class="about_title ">
 
@@ -258,6 +249,249 @@
       </div>
     </section>
   
+    <!-- Portfolio section -->
+     <!-- using : https://getbootstrap.com/docs/5.3/components/navs-tabs/ -->
+    <section class="Portfolio " id="portfolio">
+      <div class="container">
+ 
+        <div class="about_title">
+
+    <p class="main-title" >Portfolio</p>
+
+<p class="sub-title">Portfolio</p>
+  </div>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  </p>
+ 
+  <nav>
+    <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+      <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">ALL</button>
+      <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">DEV</button>
+      <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">WEB</button>
+      <button class="nav-link" id="nav-d-tab" data-bs-toggle="tab" data-bs-target="#nav-d" type="button" role="tab" aria-controls="nav-d" aria-selected="false">DESIGN</button>
+
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+      <div class="row">
+        <div class="portfolio-item col-md-4 mb-4">
+          <img src="assets/1.jpg" alt="portfolio-img" class="img-fluid">
+        </div>
+        <div class="portfolio-item col-md-4 mb-4">
+          <img src="assets/2.jpg" alt="portfolio-img" class="img-fluid">
+        </div>
+        <div class="portfolio-item col-md-4 mb-4">
+          <img src="assets/3.jpg" alt="portfolio-img" class="img-fluid">
+        </div>
+        <div class="portfolio-item col-md-4 mb-4">
+          <img src="assets/4.jpg" alt="portfolio-img" class="img-fluid">
+        </div>
+        <div class="portfolio-item col-md-4 mb-4">
+          <img src="assets/5.jpg" alt="portfolio-img" class="img-fluid">
+        </div>
+        <div class="portfolio-item col-md-4 mb-4">
+          <img src="assets/6.jpg" alt="portfolio-img" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+      <div class="row">
+         <div class="portfolio-item col-md-4 mb-4">
+          <img src="assets/2.jpg" alt="portfolio-img" class="img-fluid">
+        </div>
+     
+      </div>
+    </div>
+    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+      <div class="row">
+        <div class="portfolio-item col-md-4 mb-4">
+         <img src="assets/6.jpg" alt="portfolio-img" class="img-fluid">
+       </div>
+    
+     </div>
+    </div>
+    <div class="tab-pane fade" id="nav-d" role="tabpanel" aria-labelledby="nav-d-tab" tabindex="0">
+      <div class="row">
+        <div class="portfolio-item col-md-4 mb-4">
+         <img src="assets/2.jpg" alt="portfolio-img" class="img-fluid">
+       </div>
+       <div class="portfolio-item col-md-4 mb-4">
+        <img src="assets/3.jpg" alt="portfolio-img" class="img-fluid">
+      </div>
+      <div class="portfolio-item col-md-4 mb-4">
+        <img src="assets/1.jpg" alt="portfolio-img" class="img-fluid">
+      </div>
+    
+     </div>
+    </div>
+
+  </div>
+</div>
+  </section>
+
+
+  <!-- Testimonials section -->
+<!-- using : https://getbootstrap.com/docs/5.3/components/carousel/ -->
+<section class="Testimonials pt-4 pb-md-4" id="testimonials">
+  <div class="container">
+
+    <div class="about_title">
+
+<p class="main-title " >Testimonials</p>
+
+<p class="sub-title">Testimonials</p>
+</div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  </p>
+
+
+
+
+
+<div id="carouselExampleIndicators" class="carousel slide ">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
+  </div>
+  <div class="carousel-inner mb-5 pb-5">
+    <div class="carousel-item active">
+      <div class="testimonials-content">
+        <img src="assets/Testimonials (1).jpg">
+        <div class="testimonials-text ">
+        <h2 >
+          Robin Perty
+        </h2 >
+        <h3>
+          Senior Desinger
+        </h3>
+        <div class="line"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget est sit amet sapien congue tristique. Integer mollis auctor ultrices. Praesent vitae dapibus elit. Sed sit amet tellus magna.</p>
+      </div>
+      </div>   
+     </div>
+    <div class="carousel-item">
+      <div class="testimonials-content">
+        <img src="assets/Testimonials (2).jpg">
+        <div class="testimonials-text ">
+        <h2 >
+          Olivia Nealon        </h2 >
+        <h3>
+          Graphics Desinger        </h3>
+        <div class="line"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget est sit amet sapien congue tristique. Integer mollis auctor ultrices. Praesent vitae dapibus elit. Sed sit amet tellus magna.</p>
+      </div>
+      </div>    
+    </div>
+    <div class="carousel-item">
+      <div class="testimonials-content">
+        <img src="assets/Testimonials (3).jpg">
+        <div class="testimonials-text ">
+        <h2 >
+          Robin Perty
+        </h2 >
+        <h3>
+          Senior Desinger
+        </h3>
+        <div class="line"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget est sit amet sapien congue tristique. Integer mollis auctor ultrices. Praesent vitae dapibus elit. Sed sit amet tellus magna.</p>
+      </div>
+      </div>
+    </div>   
+     <div class="carousel-item">
+      <div class="testimonials-content">
+        <img src="assets/Testimonials (4).jpg">
+        <div class="testimonials-text ">
+        <h2 >
+          Emilie Chapin        </h2 >
+        <h3>
+          Graphics Desinger        </h3>
+        <div class="line"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget est sit amet sapien congue tristique. Integer mollis auctor ultrices. Praesent vitae dapibus elit. Sed sit amet tellus magna.</p>
+      </div>
+      </div>   
+     </div>
+     <div class="carousel-item">
+      <div class="testimonials-content">
+        <img src="assets/Testimonials (5).jpg">
+        <div class="testimonials-text ">
+        <h2 >
+          Robin Perty
+        </h2 >
+        <h3>
+          Senior Desinger
+        </h3>
+        <div class="line"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget est sit amet sapien congue tristique. Integer mollis auctor ultrices. Praesent vitae dapibus elit. Sed sit amet tellus magna.</p>
+      </div>
+      </div>   
+     </div>
+  </div>
+ 
+</div>
+</div>
+</section>
+
+
+<!-- contact section -->
+  <section class="contact" id="contact">
+   
+    <div class="container">
+      <div class="about_title ">
+
+        <p class="main-title " >Get In Touch</p>
+  
+    <p class="sub-title">Get In Touch</p>
+    <p class="pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </p>
+      </div>
+
+
+<div class="pt-4 contact-content row justify-content-around">
+<div class="contact-info1 col-md-6 ">
+  <form class="d-flex flex-column justify-content-between gap-3">
+    <!-- Name Field -->
+       <input class='form-control' type="text" id="name" name="name" placeholder="Name* "required>
+     
+
+    <!-- Email Field -->
+    <input class='form-control' type="email" id="email" name="email" placeholder="Email*" required>
+
+    <!-- Message Field -->
+    <textarea class='form-control' id="message" name="message" rows="5" placeholder="Message*" required></textarea>
+
+    <!-- Submit Button -->
+    <button class='submitBtn text-uppercase' type="submit">Send message</button>
+  </form>
+</div>
+<div class="contact-info2 col-md-4 d-flex flex-column  gap-4 p-2">
+  <div class="info2-item">
+    <h3 class="h6">Phone</h3>
+    <p>+38(098) 333-55-88</p> 
+  </div>
+  <div class="info2-item ">
+
+  <h3 class="h6">Location</h3>
+  <p>Kiev, st. Holoseyevskaya 88</p>
+  </div>
+  <div class="info2-item">
+
+  <h3 class="h6">Email</h3>
+  <p>info@yourdomain.com</p>
+  </div>
+</div>
+
+    </div>
+    </div>
+        </section>
+ <footer class="text-center bg-white">
+  <div class="copyright text-uppercase" >
+    <p>2018 © Copyright By Osaka</p>
+  </div>
+ </footer>
     <!-- bootstrap 5 -->
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
